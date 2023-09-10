@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #e5526a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+.nav-bar ul {
+  display: flex;
+  gap: 24px;
+  padding: 20px;
+}
+
+.nav-bar ul a {
+  color: #fff;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.title h1 {
+  color: #2e3131;
+  font-size: 24px;
+  font-family: "SourceSansProSemiBold";
+  font-weight: 600;
+}
+
+.title p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 25px;
+  font-family: "SourceSansProRegular";
+}
+
+.transitions a {
+  background-color: #e8ecf1;
+  border-radius: 37px;
+  margin-right: 16px;
+  line-height: 20px;
+  padding: 6px 24px 8px;
+  color: #2e3131;
+  /* border: 1px solid black; */
+  box-shadow: 0 0 5px 5px rgb(206, 201, 201);
+}
+
+.transitions {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cards {
+  width: 60%;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 15px;
+  padding: 50px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card {
+  display: flex;
+  gap: 46px;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+}
+
+.card_text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: -40px;
+}
+
+.lists ul {
+  display: flex;
+  /*  flex-direction: column; */
+  gap: 20px;
+}
+
+.lists ul li span {
+  font-size: 20px;
+  color: #2e3131;
+  display: block;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 46px;
+}
+
+.text_image {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ff0023;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 12px;
+}
+.card_info {
+}
+
+.card_text h2 {
+  font-size: 34px;
+  font-weight: 400;
+  color: #2e3131;
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box1 {
+  width: 280px;
+  background-color: #f45369;
+  border-radius: 8px;
+  padding: 11px 20px 14px;
+  font-size: 24px;
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.box2 {
+  width: 280px;
+  background-color: #beb9ba;
+  border-radius: 8px;
+  padding: 11px 20px 14px;
+  font-size: 24px;
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.foot {
+  padding: 40px;
+}
